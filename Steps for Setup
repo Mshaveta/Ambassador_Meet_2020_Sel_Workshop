@@ -1,0 +1,30 @@
+# Ambassador_Meet_2020_Sel_Workshop
+Commands to check whether java is installed or not:
+
+Open command prompt
+Run the command:-   java -version
+
+Steps to Automate any Web Application:
+
+Create One JAVA project in Eclipse:
+Go to File->New->Java Project
+
+To Associate Selenium Jars following steps need to be followed:
+
+Download Selenium Jars for JAVA language from link- 
+https://www.selenium.dev/downloads/
+ 
+Right click on project-> BuildPath->Configure Build Path->libraries-> Add External Jars-> Choose all the downloaded Jars ->Apply and close.
+
+3. Create one Package name as “Browser_drivers” (can take any name)
+4. Download browser driver that you want to launch 
+    For eg. For Chrome browser download chromedriver from link:
+https://chromedriver.chromium.org/downloads
+
+	Note: Browser Driver should be matched with your browser version.
+
+5. After extrcating the browser driver folder, place the executable file of driver in Package “Browser_drivers”.
+6. Create a new class by Right click on Project->New->Class (named as “LoginScript”).
+7. Write the code for automate any Testcase.
+
+	Note: refer the Project as uploaded on Github.
